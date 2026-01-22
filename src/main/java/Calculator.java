@@ -1,6 +1,6 @@
 import java.util.Scanner; // 1. Importăm unealta
 
-public class Interactiune {
+public class Calculator {
     public static void main(String[] args) {
     // 2. Creăm obiectul Scanner conectat la tastatură (System.in)
     Scanner firstNr = new Scanner(System.in);
