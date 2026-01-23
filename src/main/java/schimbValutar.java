@@ -16,6 +16,4 @@ public class schimbValutar {
         System.out.println("Suma de bani in euro = " + (VALOARERON / CURSEURO));
     }
 
-
-
 }

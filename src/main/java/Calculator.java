@@ -3,17 +3,31 @@ import java.util.Scanner; // 1. Importăm unealta
 public class Calculator {
     public static void main(String[] args) {
     // 2. Creăm obiectul Scanner conectat la tastatură (System.in)
-    Scanner firstNr = new Scanner(System.in);
-    Scanner secondNr = new Scanner(System.in);
+    Scanner scanner = new  Scanner(System.in);
+
 
     System.out.print("Primul numar = ");
-    double primulNr = firstNr.nextDouble();
+    double primulNr = scanner.nextDouble();
     System.out.println( "Al doilea numar = ");
-    double aldoileaNr = secondNr.nextDouble();
+    double aldoileaNr = scanner.nextDouble();
+    System.out.println("+, -, *, / ");
+    char x=scanner.next().charAt(0);
 
-    System.out.println("Suma numerelor este = " + (primulNr + aldoileaNr));
+    double result =0;
+    if (x == '+'){
+        result = primulNr + aldoileaNr;
+    }
+    if (x == '-'){
+        result = primulNr - aldoileaNr;
+    }
+    if (x == '*'){
+        result = primulNr * aldoileaNr;
+    }
+    if (x == '/'){
+            result = primulNr / aldoileaNr;
+        }
+    System.out.println(result);
 
-    secondNr.close();
-    firstNr.close();
+
 }
 }
