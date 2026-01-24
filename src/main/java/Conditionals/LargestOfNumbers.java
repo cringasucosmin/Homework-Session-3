@@ -1,3 +1,5 @@
+package Conditionals;
+
 import java.util.Scanner; // 1. Importăm unealta
 
 public class LargestOfNumbers {
@@ -18,7 +20,7 @@ public class LargestOfNumbers {
             }
         if (vmaxim > third){
             System.out.println("The largest number is: " + vmaxim);}
-            if (third > vmaxim){
+            else {
                 vmaxim = third;
                 System.out.println("The largest number is: " + vmaxim);}
 
