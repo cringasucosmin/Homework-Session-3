@@ -23,7 +23,7 @@ public class ImprovedEBCpt2 {
                         System.out.println("The value of the bill is:  " + bill);
                     }
                 }}
-            } else if (scanner.hasNextLine()) {
+            } else {
                 System.out.println("Please, enter a numeric value");
                 scanner.nextLine();}
         } while (KW != -1);

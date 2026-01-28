@@ -12,10 +12,10 @@ public class Calculator {
     double primulNr = scanner.nextDouble();
     System.out.println( "Al doilea numar = ");
     double aldoileaNr = scanner.nextDouble();
-    System.out.println("+, -, *, / ");
+    System.out.println("Te rog sa selectezi operatorul din urmatoarea lista: +, -, *, / ");
     char x=scanner.next().charAt(0);
 
-    double result =0;
+    double result =0 ;
     if (x == '+'){
         result = primulNr + aldoileaNr;
     }
@@ -29,7 +29,6 @@ public class Calculator {
             result = primulNr / aldoileaNr;
         }
     System.out.println(result);
-
 
 }
 }
