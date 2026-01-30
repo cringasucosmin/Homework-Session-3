@@ -1,15 +1,20 @@
 package loops;
-
+import java.util.Scanner;
 import org.w3c.dom.ls.LSOutput;
 
 public class MethodsPractice {
     public static void main(String[] args) {
-        sayHello();
-        sayHello();
+        Scanner scanner = new Scanner(System.in);
         sayHello();
         int answer = multiply(5, 3);
         System.out.println("5 * 3 = " + answer);
-        int[] scores = {85, 92, 78, 94, 88};
+        System.out.println("Tell me how many numbers you want to introduce");
+        int n= scanner.nextInt();
+        int[] scores= new int[n];
+        for(int i=0; i < n; i++){
+        scores[i]= scanner.nextInt();
+        }
+
         int highest = findMax(scores);
         int lowest = findMin(scores);
         double average = average(scores);
