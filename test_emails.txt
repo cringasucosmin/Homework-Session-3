@@ -1,0 +1,10 @@
+mike.wilson@outlook.ro
+alex.jones@google.co.uk
+john.davis@gmail.com
+mary.smith@gmail.ro
+mike.brown@google.net
+mary.smith@hotmail.net
+mike.jones@hotmail.co.uk
+sarah.davis@hotmail.net
+alex.smith@yahoo.co.uk
+mary.davis@hotmail.net
